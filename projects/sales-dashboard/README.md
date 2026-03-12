@@ -125,6 +125,7 @@ Higher discount levels are often associated with lower profitability.
 
 ---
 
+
 ## Key Insights
 
 • Technology is the most profitable category.  
@@ -151,3 +152,21 @@ Based on the analysis, several opportunities can improve business performance:
 
 • **Leverage seasonal trends**: Sales fluctuate over time, indicating potential seasonal demand patterns that could be leveraged through targeted promotions and inventory planning.
 
+## Project Structure
+
+```text
+sales-dashboard/
+├── data/
+│   └── Superstore.csv
+├── dashboard_images/
+│   ├── sales_by_category.png
+│   ├── sales_by_region.png
+│   ├── sales_over_time.png
+│   ├── monthly_sales_trend.png
+│   ├── monthly_profit_trend.png
+│   ├── profit_by_category.png
+│   ├── profit_by_region.png
+│   ├── top_products.png
+│   └── discount_vs_profit.png
+├── sales_dashboard_analysis.ipynb
+└── README.md
