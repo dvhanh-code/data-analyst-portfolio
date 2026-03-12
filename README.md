@@ -1,28 +1,54 @@
 # Data Analyst Portfolio
 
-## About Me
-
-I am passionate about data analysis and data visualization.  
-This portfolio showcases projects where I analyze datasets, build visualizations, and generate business insights to support decision-making.
-
-My work focuses on:
-
-- Exploratory Data Analysis (EDA)
-- Data Visualization
-- Business Insight Generation
-- Customer Behavior Analysis
+![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-yellow)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-lightblue)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 ---
 
-## Portfolio Projects
+## About Me
 
-## 1. Sales Performance Dashboard
+I am passionate about **data analysis, visualization, and data-driven decision making**.
 
-This project analyzes retail sales data to evaluate business performance and identify key revenue and profit drivers.
+This portfolio demonstrates my ability to:
+
+- analyze real-world datasets
+- build clear visualizations
+- generate actionable business insights
+
+The projects focus on **exploratory data analysis (EDA), business intelligence, and customer analytics**.
+
+---
+
+# Portfolio Projects
+
+## Project Overview
+
+| Project | Description | Tools |
+|------|------|------|
+| **Sales Performance Dashboard** | Retail sales analysis identifying revenue drivers and profit patterns | Python, Pandas, Matplotlib |
+| **Customer Churn Analysis** | Telecom customer churn analysis identifying high-risk customer segments | Python, Pandas, Seaborn |
+
+---
+
+# Quick Navigation
+
+| Project | Link |
+|------|------|
+| Sales Dashboard | [Open Project](projects/sales-dashboard/README.md) |
+| Customer Churn Analysis | [Open Project](projects/customer-churn-analysis/README.md) |
+
+---
+
+# 1. Sales Performance Dashboard
+
+Retail sales analysis project focused on understanding **sales performance, profit distribution, and product performance**.
 
 ### Key Analysis Areas
 
-- Sales by product category
+- Sales by category
 - Profit by region
 - Monthly sales and profit trends
 - Top-performing products
@@ -30,54 +56,57 @@ This project analyzes retail sales data to evaluate business performance and ide
 
 ### Tools Used
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+Python  
+Pandas  
+Matplotlib  
+Seaborn  
+Jupyter Notebook  
 
 ### Key Insight
 
 Technology products generate the highest revenue, while excessive discounting often reduces profitability.
 
-### Project Preview
+### Visualization Preview
 
 ![Sales by Category](projects/sales-dashboard/dashboard_images/sales_by_category.png)
 
-[Open Project 1: Sales Performance Dashboard](projects/sales-dashboard/README.md)
+Project Link: [Open Project 1: Sales Performance Dashboard](projects/sales-dashboard/README.md)
 
 ---
 
-## 2. Customer Churn Analysis
 
-This project explores customer churn patterns in a telecom dataset to identify the factors that influence customer retention.
+---
+
+# 2. Customer Churn Analysis
+
+Customer churn analysis project focused on identifying **factors influencing customer retention**.
 
 ### Key Analysis Areas
 
 - Customer churn distribution
 - Churn by contract type
-- Churn by customer tenure
+- Churn by tenure
 - Monthly charges vs churn
 - Customer risk segmentation
 - Feature correlation analysis
 
 ### Tools Used
 
-- Python
-- Pandas
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+Python  
+Pandas  
+Matplotlib  
+Seaborn  
+Jupyter Notebook  
 
 ### Key Insight
 
-Customers with **month-to-month contracts, shorter tenure, and higher monthly charges** show significantly higher churn probability.
+Customers with **month-to-month contracts, shorter tenure, and higher monthly charges** show a significantly higher churn probability.
 
-### Project Preview
+### Visualization Preview
 
-![Customer Risk Segmentation](projects/customer-churn-analysis/images/customer_risk_segmentation.png)
+![Customer Segmentation](projects/customer-churn-analysis/images/customer_risk_segmentation.png)
 
-[Open Project 2: Customer Churn Analysis](projects/customer-churn-analysis/README.md)
+Project Link: [Open Project 2: Customer Churn Analysis](projects/customer-churn-analysis/README.md)
 
 ---
 
