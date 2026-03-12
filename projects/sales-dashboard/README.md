@@ -1,5 +1,17 @@
 # Sales Performance Dashboard
 
+## Executive Summary
+
+This project analyzes the Superstore retail dataset to evaluate sales and profitability across product categories, regions, and time.
+
+The analysis reveals that Technology products are the primary revenue drivers, while the West region generates the highest overall profit. Sales trends show periodic fluctuations, indicating potential seasonal demand patterns.
+
+Additionally, the analysis highlights that excessive discounting often reduces profitability, suggesting that discount strategies should be carefully optimized.
+
+These insights can support data-driven decisions in areas such as pricing strategy, inventory management, and regional sales planning.
+
+---
+
 ## Project Overview
 
 This project analyzes the Superstore dataset to evaluate company
@@ -8,6 +20,10 @@ performance in terms of sales, profit, and product performance.
 The goal is to identify key business drivers and provide insights
 through data visualization.
 
+---
+## Example Visualization
+
+![Dashboard Overview](dashboard_images/monthly_sales_trend.png)
 ---
 
 ## Business Questions
@@ -55,6 +71,7 @@ Key columns include:
 | Total Sales | $2,297,200 |
 | Total Profit | $286,397   |
 | Total Orders | 5,009      |
+| Profit Margin | 12.46% |
 
 ---
 
@@ -120,4 +137,17 @@ Higher discount levels are often associated with lower profitability.
 
 • Excessive discounting can negatively affect profit.
 
+---
+
+## Business Recommendations
+
+Based on the analysis, several opportunities can improve business performance:
+
+• **Optimize discount strategies**: High discount levels are often associated with lower or negative profit margins.
+
+• **Focus on high-performing products**: A small number of products generate a large share of revenue, suggesting that prioritizing these products in marketing and inventory planning could improve sales performance.
+
+• **Strengthen regional strategies**: The West region demonstrates strong profitability. Similar strategies could be applied to underperforming regions.
+
+• **Leverage seasonal trends**: Sales fluctuate over time, indicating potential seasonal demand patterns that could be leveraged through targeted promotions and inventory planning.
 
