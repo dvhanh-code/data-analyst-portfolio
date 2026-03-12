@@ -120,6 +120,4 @@ Higher discount levels are often associated with lower profitability.
 
 • Excessive discounting can negatively affect profit.
 
----
 
-## Project Structure
