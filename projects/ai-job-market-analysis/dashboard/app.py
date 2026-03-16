@@ -242,13 +242,16 @@ def th(fig, title=""):
 @st.cache_data
 def load_data():
     import os
-    jobs_path   = "data/ai_jobs.csv"
-    skills_path = "data/skills_demand.csv"
+    # resolve paths relative to app.py — works locally and on Streamlit Cloud
+    base_dir    = os.path.dirname(os.path.abspath(__file__))
+    data_dir    = os.path.join(base_dir, "..", "data")
+    jobs_path   = os.path.normpath(os.path.join(data_dir, "ai_jobs.csv"))
+    skills_path = os.path.normpath(os.path.join(data_dir, "skills_demand.csv"))
 
     if os.path.exists(jobs_path):
         df = pd.read_csv(jobs_path)
     else:
-        st.error("data/ai_jobs.csv not found. Please add the dataset files to the data/ folder.")
+        st.error(f"ai_jobs.csv not found at: {jobs_path}")
         st.stop()
 
     # compute mid salary
