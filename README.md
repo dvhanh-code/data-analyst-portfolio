@@ -4,6 +4,8 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-yellow)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-lightblue)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-blueviolet)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-red)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 
 ---
@@ -17,32 +19,35 @@ This portfolio demonstrates my ability to:
 - analyze real-world datasets
 - build clear visualizations
 - generate actionable business insights
+- build interactive dashboards for data exploration
 
-The projects focus on **exploratory data analysis (EDA), business intelligence, and customer analytics**.
+The projects focus on **exploratory data analysis (EDA), business intelligence, customer analytics, and job market research**.
 
 ---
 
-# Portfolio Projects
+## Portfolio Projects
 
-## Project Overview
+### Project Overview
 
 | Project | Description | Tools |
-|------|------|------|
+|---|---|---|
 | **Sales Performance Dashboard** | Retail sales analysis identifying revenue drivers and profit patterns | Python, Pandas, Matplotlib |
 | **Customer Churn Analysis** | Telecom customer churn analysis identifying high-risk customer segments | Python, Pandas, Seaborn |
+| **AI & Data Science Job Market** | Interactive dashboard exploring salary trends and hiring patterns across the global AI job market 2020–2026 | Python, Pandas, Plotly, Streamlit |
 
 ---
 
-# Quick Navigation
+## Quick Navigation
 
 | Project | Link |
-|------|------|
+|---|---|
 | Sales Dashboard | [Open Project](projects/sales-dashboard/README.md) |
 | Customer Churn Analysis | [Open Project](projects/customer-churn-analysis/README.md) |
+| AI & Data Science Job Market | [Open Project](projects/ai-job-market-analysis/README.md) · [Live Demo](https://your-app-url.streamlit.app) |
 
 ---
 
-# 1. Sales Performance Dashboard
+## 1. Sales Performance Dashboard
 
 Retail sales analysis project focused on understanding **sales performance, profit distribution, and product performance**.
 
@@ -56,11 +61,7 @@ Retail sales analysis project focused on understanding **sales performance, prof
 
 ### Tools Used
 
-Python  
-Pandas  
-Matplotlib  
-Seaborn  
-Jupyter Notebook  
+Python · Pandas · Matplotlib · Seaborn · Jupyter Notebook
 
 ### Key Insight
 
@@ -74,10 +75,7 @@ Project Link: [Open Project 1: Sales Performance Dashboard](projects/sales-dashb
 
 ---
 
-
----
-
-# 2. Customer Churn Analysis
+## 2. Customer Churn Analysis
 
 Customer churn analysis project focused on identifying **factors influencing customer retention**.
 
@@ -92,11 +90,7 @@ Customer churn analysis project focused on identifying **factors influencing cus
 
 ### Tools Used
 
-Python  
-Pandas  
-Matplotlib  
-Seaborn  
-Jupyter Notebook  
+Python · Pandas · Matplotlib · Seaborn · Jupyter Notebook
 
 ### Key Insight
 
@@ -110,6 +104,34 @@ Project Link: [Open Project 2: Customer Churn Analysis](projects/customer-churn-
 
 ---
 
+## 3. AI & Data Science Job Market Dashboard
+
+Interactive data visualization dashboard exploring **salary trends, role distributions, and hiring patterns** across the global AI & Data Science job market from 2020 to 2026.
+
+### Key Analysis Areas
+
+- Salary trends by year, experience level, and company size
+- Top job titles and role distribution
+- Geographic hiring patterns across 6 countries
+- Remote vs hybrid vs on-site adoption over time
+- Most in-demand technical skills and salary premiums
+
+### Tools Used
+
+Python · Pandas · Plotly · Streamlit · Jupyter Notebook
+
+### Key Insight
+
+**Cloud skills** (AWS, GCP, Azure) and **ML frameworks** (TensorFlow, Scikit-learn) carry the highest salary premiums. Remote roles now dominate the market across all experience levels.
+
+### Live Demo
+
+[View Dashboard](https://ai-job-market-2026.streamlit.app)
+
+Project Link: [Open Project 3: AI & Data Science Job Market](projects/ai-job-market-analysis/README.md)
+
+---
+
 ## Repository Structure
 
 ```text
@@ -120,9 +142,19 @@ data-analyst-portfolio/
 │   │   ├── dashboard_images/
 │   │   ├── sales_dashboard_analysis.ipynb
 │   │   └── README.md
-│   └── customer-churn-analysis/
+│   ├── customer-churn-analysis/
+│   │   ├── data/
+│   │   ├── images/
+│   │   ├── churn_analysis.ipynb
+│   │   └── README.md
+│   └── ai-job-market-analysis/
+│       ├── dashboard/
+│       │   └── app.py
 │       ├── data/
 │       ├── images/
-│       ├── churn_analysis.ipynb
+│       ├── notebooks/
+│       │   └── ai_job_market_eda.ipynb
+│       ├── requirements.txt
 │       └── README.md
 └── README.md
+```
